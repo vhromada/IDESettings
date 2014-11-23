@@ -1,0 +1,4 @@
+IDESettings
+===========
+
+Settings for IDE
