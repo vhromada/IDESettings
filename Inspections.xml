@@ -276,7 +276,6 @@
   <inspection_tool class="JNDIResource" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
-  <inspection_tool class="JSDeclarationsAtScopeStart" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="JSXLanguageLevel" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnit3MethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnit3StyleTestMethodInJUnit4Class" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -333,7 +332,6 @@
     <option name="ignoreIterators" value="false" />
   </inspection_tool>
   <inspection_tool class="LossyEncoding" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="MagicNumberJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_onlyPrivateOrFinal" value="false" />
@@ -378,7 +376,6 @@
     <option name="m_ignoreNegatedNullComparison" value="true" />
     <option name="m_ignoreNegatedZeroComparison" value="false" />
   </inspection_tool>
-  <inspection_tool class="NegatedIfStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NegativelyNamedBooleanVariable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -606,7 +603,6 @@
   </inspection_tool>
   <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringEqualsIgnoreCase" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringReplaceableByStringBuffer" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="onlyWarnOnLoop" value="true" />
   </inspection_tool>
