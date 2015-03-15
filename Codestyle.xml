@@ -18,7 +18,7 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="160" />
-  <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
+  <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
   <option name="WRAP_COMMENTS" value="true" />
   <CssCodeStyleSettings>
