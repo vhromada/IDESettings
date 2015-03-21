@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<inspections version="1.0" is_locked="false">
+<inspections profile_name="vhromada" version="1.0" is_locked="false">
   <option name="myName" value="vhromada" />
   <option name="myLocal" value="true" />
   <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="AbstractClassExtendsConcreteClass" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="AbstractClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AbstractClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_minLength" value="4" />
+  </inspection_tool>
   <inspection_tool class="AbstractClassNeverImplemented" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodCallInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodOverridesConcreteMethod" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -20,7 +20,7 @@
   <inspection_tool class="AmbiguousMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AnnotationNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-    <option name="m_minLength" value="8" />
+    <option name="m_minLength" value="4" />
     <option name="m_maxLength" value="64" />
   </inspection_tool>
   <inspection_tool class="AnonymousClassVariableHidesContainingMethodVariable" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -175,7 +175,7 @@
   </inspection_tool>
   <inspection_tool class="EnumeratedClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-    <option name="m_minLength" value="8" />
+    <option name="m_minLength" value="4" />
     <option name="m_maxLength" value="64" />
   </inspection_tool>
   <inspection_tool class="EnumeratedConstantNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
@@ -749,4 +749,3 @@
   </inspection_tool>
   <inspection_tool class="ZeroLengthArrayInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
 </inspections>
-
