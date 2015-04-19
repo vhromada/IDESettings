@@ -83,7 +83,6 @@
   </inspection_tool>
   <inspection_tool class="CharUsedInArithmeticContext" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CharacterComparison" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="CheckStyle-IDEA" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ClassEscapesItsScope" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ClassInitializer" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ClassLoaderInstantiation" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -120,7 +119,6 @@
   <inspection_tool class="ConfusingMainMethod" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConfusingOctalEscape" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConfusingPlusesOrMinusesJS" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ConstantDeclaredInAbstractClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantDeclaredInInterface" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantJUnitAssertArgument" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantMathCall" enabled="true" level="WARNING" enabled_by_default="true" />
