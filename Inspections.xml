@@ -465,8 +465,8 @@
     <option name="m_ignoreForAbstractMethods" value="false" />
   </inspection_tool>
   <inspection_tool class="ParameterNameDiffersFromOverriddenParameter" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_ignoreSingleCharacterNames" value="false" />
-    <option name="m_ignoreOverridesOfLibraryMethods" value="false" />
+    <option name="m_ignoreSingleCharacterNames" value="true" />
+    <option name="m_ignoreOverridesOfLibraryMethods" value="true" />
   </inspection_tool>
   <inspection_tool class="ParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
