@@ -102,7 +102,6 @@
       <property name="severity" value="warning"/>
     </module>
     <module name="PackageDeclaration"/>
-    <module name="JUnitTestCase"/>
     <module name="ReturnCount">
       <property name="severity" value="warning"/>
       <property name="max" value="4"/>
