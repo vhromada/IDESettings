@@ -68,12 +68,6 @@
       <property name="ignoreNumbers" value="-1, 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 32, 64, 128, 256, 512, 1000, 1024, 1000000"/>
     </module>
     <module name="ModifiedControlVariable"/>
-    <module name="RedundantThrows">
-      <property name="severity" value="ignore"/>
-      <property name="allowUnchecked" value="true"/>
-      <property name="allowSubclasses" value="true"/>
-      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
-    </module>
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
     <module name="StringLiteralEquality"/>
