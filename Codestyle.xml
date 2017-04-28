@@ -23,11 +23,28 @@
   <option name="RIGHT_MARGIN" value="160" />
   <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
+  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="" />
+  <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
+  <option name="HTML_ENFORCE_QUOTES" value="true" />
   <option name="WRAP_COMMENTS" value="true" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
   </CssCodeStyleSettings>
+  <JSCodeStyleSettings>
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="FORCE_QUOTE_STYlE" value="true" />
+    <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+  </JSCodeStyleSettings>
+  <TypeScriptCodeStyleSettings>
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="FIELD_PREFIX" value="" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="FORCE_QUOTE_STYlE" value="true" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+  </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_KEEP_WHITESPACES" value="true" />
     <option name="XML_KEEP_BLANK_LINES" value="1" />
@@ -236,19 +253,14 @@
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
     <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="LESS">
     <indentOptions>
@@ -278,11 +290,6 @@
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <arrangement>
