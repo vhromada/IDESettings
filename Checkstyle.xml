@@ -2,28 +2,26 @@
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 <module name="Checker">
   <property name="severity" value="warning"/>
-  <module name="SuppressionCommentFilter">
-    <property name="offCommentFormat" value="CHECKSTYLE.OFF\: ([\w\|]+)"/>
-    <property name="onCommentFormat" value="CHECKSTYLE.ON\: ([\w\|]+)"/>
-    <property name="checkFormat" value="$1"/>
-  </module>
-  <module name="SuppressWithNearbyCommentFilter">
-    <property name="commentFormat" value="CHECKSTYLE IGNORE (\w+) FOR NEXT (\d+) LINES"/>
-    <property name="checkFormat" value="$1"/>
-    <property name="influenceFormat" value="$2"/>
-  </module>
   <module name="FileTabCharacter"/>
   <module name="TreeWalker">
     <property name="severity" value="warning"/>
     <property name="cacheFile" value="null"/>
-    <module name="FileContentsHolder"/>
+    <module name="SuppressionCommentFilter">
+      <property name="offCommentFormat" value="CHECKSTYLE.OFF\: ([\w\|]+)"/>
+      <property name="onCommentFormat" value="CHECKSTYLE.ON\: ([\w\|]+)"/>
+      <property name="checkFormat" value="$1"/>
+    </module>
+    <module name="SuppressWithNearbyCommentFilter">
+      <property name="commentFormat" value="CHECKSTYLE IGNORE (\w+) FOR NEXT (\d+) LINES"/>
+      <property name="checkFormat" value="$1"/>
+      <property name="influenceFormat" value="$2"/>
+    </module>      
     <module name="AnnotationUseStyle"/>
     <module name="EmptyBlock">
       <property name="tokens" value="LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_IF, LITERAL_FOR, LITERAL_TRY, LITERAL_WHILE, INSTANCE_INIT, STATIC_INIT"/>
     </module>
     <module name="LeftCurly">
       <property name="severity" value="warning"/>
-      <property name="maxLineLength" value="160"/>
     </module>
     <module name="NeedBraces">
       <property name="severity" value="info"/>
@@ -198,10 +196,8 @@
       <message key="todo.match" value="TODO must match format e.g. &quot;// TODO author 1.1.2013: some description&quot;. Description must be minimal length of 10."/>
     </module>
   </module>
-  <module name="SuppressWithNearbyCommentFilter"/>
   <module name="NewlineAtEndOfFile">
     <property name="lineSeparator" value="lf"/>
   </module>
-  <module name="SuppressionCommentFilter"/>
   <module name="FileLength"/>
 </module>
