@@ -119,7 +119,7 @@
       <property name="severity" value="info"/>
     </module>
     <module name="AvoidStaticImport">
-      <property name="excludes" value="org.hamcrest.Matchers.*,org.hamcrest.CoreMatchers.*,org.junit.Assert.*,org.mockito.Mockito.*,org.mockito.ArgumentMatchers.*"/>
+      <property name="excludes" value="org.junit.jupiter.api.Assertions.*,org.assertj.core.api.Assertions.*,org.assertj.core.api.SoftAssertions.*,org.mockito.Mockito.*,org.mockito.ArgumentMatchers.*"/>
     </module>
     <module name="IllegalImport"/>
     <module name="RedundantImport"/>

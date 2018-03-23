@@ -1,4 +1,4 @@
-<code_scheme name="vhromada">
+<code_scheme name="vhromada" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="GENERATE_FINAL_LOCALS" value="true" />
   <option name="GENERATE_FINAL_PARAMETERS" value="true" />
@@ -31,6 +31,12 @@
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
   </CssCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_BLANK_LINES" value="1" />
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
+    <option name="HTML_ENFORCE_QUOTES" value="true" />
+  </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
@@ -38,6 +44,29 @@
     <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </JSCodeStyleSettings>
+  <JavaCodeStyleSettings>
+    <option name="GENERATE_FINAL_LOCALS" value="true" />
+    <option name="GENERATE_FINAL_PARAMETERS" value="true" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+    <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+      <value />
+    </option>
+    <option name="IMPORT_LAYOUT_TABLE">
+      <value>
+        <package name="" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="java" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="javax" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="cz.vhromada" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="" withSubpackages="true" static="false" />
+      </value>
+    </option>
+    <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+  </JavaCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="FIELD_PREFIX" value="" />
@@ -61,10 +90,6 @@
   <codeStyleSettings language="ECMA Script Level 4">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
-  </codeStyleSettings>
-  <codeStyleSettings language="Groovy">
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
@@ -90,6 +115,9 @@
     <option name="ASSERT_STATEMENT_WRAP" value="1" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
     <arrangement>
       <rules>
         <section>
@@ -260,7 +288,6 @@
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="LESS">
     <indentOptions>
@@ -289,7 +316,6 @@
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <arrangement>
