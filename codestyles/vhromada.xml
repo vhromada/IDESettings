@@ -20,8 +20,7 @@
       <package name="" withSubpackages="true" static="false" />
     </value>
   </option>
-  <option name="RIGHT_MARGIN" value="160" />
-  <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+  <option name="RIGHT_MARGIN" value="200" />
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
   <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="" />
   <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
@@ -37,7 +36,7 @@
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
   </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
@@ -67,7 +66,14 @@
     </option>
     <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
   </JavaCodeStyleSettings>
-  <TypeScriptCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="PACKAGES_TO_USE_STAR_IMPORTS">
+      <value />
+    </option>
+    <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="2147483647" />
+    <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
+  </JetCodeStyleSettings>
+  <TypeScriptCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="FIELD_PREFIX" value="" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
@@ -87,9 +93,29 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="DB2">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Derby">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="ECMA Script Level 4">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="H2">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HSQLDB">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
@@ -295,6 +321,21 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="MySQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Oracle">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="PostgreSQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -302,7 +343,11 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SQL">
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQLite">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
@@ -311,6 +356,16 @@
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Sybase">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TSQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
@@ -336,5 +391,8 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
 </code_scheme>
